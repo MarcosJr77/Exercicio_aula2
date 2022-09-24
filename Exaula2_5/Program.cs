@@ -2,7 +2,7 @@
     internal class Program {
         static void Main(string[] args) {
             float [] nota= new float[3];
-            double soma=0, media=0;
+            float soma=0, media=0;
             
 
             for (int i = 0; i < nota.Length; i++)
