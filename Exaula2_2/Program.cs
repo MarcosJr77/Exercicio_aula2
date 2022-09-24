@@ -10,7 +10,7 @@
             Console.WriteLine("Digite o dia do seu nascimento: ");
             dia = int.Parse(Console.ReadLine());
 
-            calculo = ((2020-ano) * 365) + (mes * 30) + dia;
+            calculo = ((2020-ano) * 365) + ((mes-1) * 30) + dia;
 
             Console.WriteLine("Você tem {0} dias em idade.", calculo);
 
